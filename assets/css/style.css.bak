@@ -1,0 +1,166 @@
+.heroImg{
+	background-color:#fcdb00;
+	padding: 100px 0;
+}
+.navbar li {
+	display:inline-block;
+	margin:0 18.5px;
+	
+}
+.navbar li a{
+	padding: 5px 10.5px;
+	font-size:22px;
+	font-weight:bold;
+	color:#010101;
+	text-transform:capitalize;
+}
+.navbar li:last-child{
+	margin-right:0;
+}
+.inspiration{
+	margin-top:75px;
+	
+}
+
+.pri-heading{
+	font-size: 32px;
+	font-weight:bold;
+	color:#010101;
+	margin-bottom:20px;
+	
+}
+
+.sec-heading{
+	font-size:20px;
+	color:#313841;
+	margin-bottom:25px;
+	
+}
+
+.para{
+	font-size:16px;
+	color:#555555;
+	margin-bottom:40px;
+	
+}
+.brandIcons li{
+	display:inline-block;
+	margin-right:40px;
+	color:#010101;
+}
+
+.brandIcons li a{
+	
+	color:#010101;
+}
+
+.text-align{
+	text-align:center;
+}
+
+/* ============Feature section css===========*/
+
+.feature{
+	padding:100px 0 10px 0;	
+}
+
+.feature .sec-heading{
+	margin-bottom:90px;
+		
+}
+
+.thumbnail{
+ margin-top:90px;
+}
+
+
+
+.thumbInfo h4 {
+	font-size=22px;
+	color:#010101;
+	margin-bottom:15px;
+	
+}
+
+.thumbInfo p {
+	font-size= 16px;
+	color: #898989;
+	
+	
+}
+
+.thumbIcon{
+	margin-top:3px;
+}
+  
+
+/* ============Contact section css===========*/
+.contact{
+	background-color: #010101;
+	padding:100px 0;
+	
+}
+.contact .pri-heading{
+	color: #fcdb00;
+}
+.contact .sec-heading{
+	color: #898989;
+	margin-top:40px;
+}
+
+.contact .email, .contact .btn{
+	height:50px;
+	border-radius:5px;
+	
+}
+
+.contact .btn{
+	width:130px;
+	text-transform: uppercase;
+	font-size:16px;
+	color: #010101;
+	background-color:#fcdb00;
+	cursor:pointer;
+	margin-left:10px;
+	font-weight:bold;
+	border:1px solid #fcdb00;
+	transition: all .3s ease-in-out;
+}
+
+.contact .email{
+	width: calc(100% - 145px);
+	padding: 0 25px;
+	
+}
+.contact .email::placeholder{
+	
+color: #898989;
+
+}
+
+.contact .btn:hover,
+.contact .btn:active,
+.contact .focus{
+	background-color:#010101;
+	color:#fcdb00;	
+}
+
+.form-group{
+	margin-bottom:80px;
+	
+}
+
+.contact .brandIcons li a{
+   color:#fcdb00;
+}
+
+.footerLinks li,
+.footerLinks li a:link,
+.footerLinks li a:visited{
+	color:#fff;
+	text-transform:capitalize;
+} 
+
+.contact .brandIcons {
+	margin-bottom:130px;
+}
